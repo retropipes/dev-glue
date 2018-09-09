@@ -27,5 +27,5 @@ def main(top):
 
 # Kickstarter
 if __name__ == '__main__':
-	args = parser_parse_args()
+	args = parser.parse_args()
 	main(args.top)
